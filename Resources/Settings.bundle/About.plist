@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>The World Was White
+
+a P.o.E.M.M. by Jason Edward Lewis
+
+Three friends. A silent winter day. A long drive together, in the midst of going our separate ways. Trying to figure it all out.
+
+The World Was White is a homage to the many, many road trips—short and long—I took across northern California with friends while a teenager. 
+
+Much later, I have come to realize that it is also about growing up one of the few brown kids in white, rural mountain country.
+
+Programming by Serge Maheu &amp; Christian Gratton, from original code by Bruno Nadeau.
+
+Based on the NextText architecture
+
+Original Musical Score by Paul Dolden
+
+Version 1.0.1
+
+2013 ©  Jason Edward Lewis</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>About</string>
+</dict>
+</plist>
