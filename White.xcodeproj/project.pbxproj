@@ -1,5 +1,3 @@
-
-
 // !$*UTF8*$!
 {
 	archiveVersion = 1;
@@ -9,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57F00E3C2045D4FA0022C9E2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F00E3B2045D4FA0022C9E2 /* Media.xcassets */; };
 		9519C95517FDD02E00E7EE9D /* Perlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9519C95217FDC1F500E7EE9D /* Perlin.cpp */; };
 		954829F818907BFB00BA1D18 /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 954829F618907BFB00BA1D18 /* death.png */; };
 		954829F918907BFB00BA1D18 /* death@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 954829F718907BFB00BA1D18 /* death@2x.png */; };
@@ -194,6 +193,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57F00E3B2045D4FA0022C9E2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		9519C95217FDC1F500E7EE9D /* Perlin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Perlin.cpp; path = White/PerlinTexture/Perlin.cpp; sourceTree = "<group>"; };
 		9519C95317FDC1F500E7EE9D /* Perlin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Perlin.h; path = White/PerlinTexture/Perlin.h; sourceTree = "<group>"; };
 		954829F618907BFB00BA1D18 /* death.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = death.png; sourceTree = "<group>"; };
@@ -518,6 +518,7 @@
 		D2BDC8D416F78C7400A8FCCD = {
 			isa = PBXGroup;
 			children = (
+				57F00E3B2045D4FA0022C9E2 /* Media.xcassets */,
 				D2BDC8E616F78C7400A8FCCD /* White */,
 				D2BDC8DF16F78C7400A8FCCD /* Frameworks */,
 				D2BDC8DE16F78C7400A8FCCD /* Products */,
@@ -1231,6 +1232,12 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Christian Gratton";
+				TargetAttributes = {
+					D2BDC8DC16F78C7400A8FCCD = {
+						DevelopmentTeam = 6B68QQG3FR;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = D2BDC8D816F78C7400A8FCCD /* Build configuration list for PBXProject "White" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1270,6 +1277,7 @@
 				D2BDCA1316F78D4A00A8FCCD /* header-568h@2x.png in Resources */,
 				D2BDCA1416F78D4A00A8FCCD /* header-ipad.png in Resources */,
 				D2BDCA1516F78D4A00A8FCCD /* header-ipad@2x.png in Resources */,
+				57F00E3C2045D4FA0022C9E2 /* Media.xcassets in Resources */,
 				D2BDCA1616F78D4A00A8FCCD /* header.png in Resources */,
 				95E5854F185106F400D4E1E8 /* Icon-76.png in Resources */,
 				D2BDCA1716F78D4A00A8FCCD /* header@2x.png in Resources */,
@@ -1485,20 +1493,26 @@
 		D2B3D8D716FC5850000277BD /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "White/White-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "White/White-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/White/TestFlight\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.White;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E0805F8D-2035-4469-B8E1-F65078195AF0";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0805F8D-2035-4469-B8E1-F65078195AF0";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = "Ad Hoc";
@@ -1567,20 +1581,26 @@
 		D2BDC8FB16F78C7400A8FCCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer: Jason Lewis (6994C36BD5)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jason Lewis (6994C36BD5)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "White/White-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "White/White-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/White/TestFlight\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.White;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "22025764-1BF1-4C3F-8C87-1EFBF804342F";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "22025764-1BF1-4C3F-8C87-1EFBF804342F";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1588,18 +1608,25 @@
 		D2BDC8FC16F78C7400A8FCCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Jason Lewis (6B68QQG3FR)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6B68QQG3FR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "White/White-Prefix.pch";
 				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = "White/White-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/White/TestFlight\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.obxlabs.White;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "E2AC55B0-9E5D-4922-B4FF-59615EB7C4D3";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

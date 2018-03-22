@@ -151,7 +151,7 @@ static float RENDER_PADDING;// iPad 20.0f iPhone 10.0f
                         //glEnableClientState(GL_VERTEX_ARRAY);
                         glVertexPointer(2, GL_FLOAT, 0, [data getVertices]);
                         glLineWidth(OUTLINE_WIDTH);
-                        glDrawElements(GL_LINE_LOOP, [data numOutlineIndices:i], GL_UNSIGNED_INT, [data getOutlineIndices:i]);
+                        glDrawElements(GL_LINE_LOOP, [data numOutlineIndices:i], GL_UNSIGNED_INT_OES, [data getOutlineIndices:i]);
                         
                         glDisable(GL_LINE_SMOOTH);
                     }
@@ -348,7 +348,7 @@ static float RENDER_PADDING;// iPad 20.0f iPhone 10.0f
                         //glEnableClientState(GL_VERTEX_ARRAY);
                         glVertexPointer(2, GL_FLOAT, 0, [data getVertices]);
                         glLineWidth(OUTLINE_WIDTH);
-                        glDrawElements(GL_LINE_LOOP, [data numOutlineIndices:i], GL_UNSIGNED_INT, [data getOutlineIndices:i]);
+                        glDrawElements(GL_LINE_LOOP, [data numOutlineIndices:i], GL_UNSIGNED_INT_OES, [data getOutlineIndices:i]);
                         
                         glDisable(GL_LINE_SMOOTH);
                     }
@@ -509,7 +509,8 @@ static float RENDER_PADDING;// iPad 20.0f iPhone 10.0f
 	if(ow != 0)
 		oy /= ow;
 	
-	return CGPointMake(([UIScreen mainScreen].bounds.size.height * (1 + ox) / 2.0f), ([UIScreen mainScreen].bounds.size.width * (1 + oy) / 2.0f));
+    //VICTOR - PROPER SCREEN BOUNDS
+	return CGPointMake(([UIScreen mainScreen].bounds.size.width * (1 + ox) / 2.0f), ([UIScreen mainScreen].bounds.size.height * (1 + oy) / 2.0f));
 }
 
 #pragma mark - RANDOM
