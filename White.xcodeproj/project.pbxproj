@@ -274,7 +274,6 @@
 		D2BDC8EA16F78C7400A8FCCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D2BDC8EC16F78C7400A8FCCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2BDC8EE16F78C7400A8FCCD /* White-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "White-Prefix.pch"; sourceTree = "<group>"; };
-		D2BDC8EF16F78C7400A8FCCD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D2BDC8F016F78C7400A8FCCD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D2BDC90016F78D4A00A8FCCD /* OKBitmapFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKBitmapFont.h; sourceTree = "<group>"; };
 		D2BDC90116F78D4A00A8FCCD /* OKBitmapFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKBitmapFont.m; sourceTree = "<group>"; };
@@ -599,7 +598,6 @@
 			isa = PBXGroup;
 			children = (
 				D28B64FD1709EC710078E7DE /* TestFlight */,
-				D2BDC8EF16F78C7400A8FCCD /* AppDelegate.h */,
 				D2BDC8F016F78C7400A8FCCD /* AppDelegate.m */,
 				D2BDCA6216F7930300A8FCCD /* White */,
 				D2BDC8FE16F78D4A00A8FCCD /* OKFont */,

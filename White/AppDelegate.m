@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Christian Gratton. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import <OBXKit/AppDelegate.h>
 #import "EAGLView.h"
 #import "OKPoEMM.h"
 #import "OKPreloader.h"
@@ -138,11 +138,6 @@
     if(eaglView) [eaglView startAnimation];
     
     [self.window setRootViewController:self.poemm];
-    
-}
-
-- (void) display:(NSNotification*)notification
-{
     
 }
 
