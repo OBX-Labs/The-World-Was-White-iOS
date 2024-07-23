@@ -55,7 +55,6 @@
 		D2BDC9E316F78D4A00A8FCCD /* OKWordObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC91016F78D4A00A8FCCD /* OKWordObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D2BDC9E416F78D4A00A8FCCD /* OKTessData.mm in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC91316F78D4A00A8FCCD /* OKTessData.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D2BDC9E516F78D4A00A8FCCD /* OKTessFont.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC91516F78D4A00A8FCCD /* OKTessFont.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D2BDC9E616F78D4A00A8FCCD /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC91916F78D4A00A8FCCD /* Appirater.m */; };
 		D2BDC9E716F78D4A00A8FCCD /* DejalActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC91D16F78D4A00A8FCCD /* DejalActivityView.m */; };
 		D2BDC9E816F78D4A00A8FCCD /* OKNewAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC92116F78D4A00A8FCCD /* OKNewAccount.m */; };
 		D2BDC9E916F78D4A00A8FCCD /* OKRequestPassword.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BDC92316F78D4A00A8FCCD /* OKRequestPassword.m */; };
@@ -297,9 +296,6 @@
 		D2BDC91316F78D4A00A8FCCD /* OKTessData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OKTessData.mm; sourceTree = "<group>"; };
 		D2BDC91416F78D4A00A8FCCD /* OKTessFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKTessFont.h; sourceTree = "<group>"; };
 		D2BDC91516F78D4A00A8FCCD /* OKTessFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OKTessFont.m; sourceTree = "<group>"; };
-		D2BDC91816F78D4A00A8FCCD /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = "<group>"; };
-		D2BDC91916F78D4A00A8FCCD /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = "<group>"; };
-		D2BDC91A16F78D4A00A8FCCD /* AppiraterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppiraterDelegate.h; sourceTree = "<group>"; };
 		D2BDC91C16F78D4A00A8FCCD /* DejalActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DejalActivityView.h; sourceTree = "<group>"; };
 		D2BDC91D16F78D4A00A8FCCD /* DejalActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DejalActivityView.m; sourceTree = "<group>"; };
 		D2BDC92016F78D4A00A8FCCD /* OKNewAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OKNewAccount.h; sourceTree = "<group>"; };
@@ -681,7 +677,6 @@
 		D2BDC91616F78D4A00A8FCCD /* OKPoEMM */ = {
 			isa = PBXGroup;
 			children = (
-				D2BDC91716F78D4A00A8FCCD /* Appirater */,
 				D2BDC91B16F78D4A00A8FCCD /* DSActivityView */,
 				D2BDC91E16F78D4A00A8FCCD /* OKAccountManager */,
 				D2BDC92F16F78D4A00A8FCCD /* OKInfoView */,
@@ -697,16 +692,6 @@
 				D2BDC96E16F78D4A00A8FCCD /* Resources */,
 			);
 			path = OKPoEMM;
-			sourceTree = "<group>";
-		};
-		D2BDC91716F78D4A00A8FCCD /* Appirater */ = {
-			isa = PBXGroup;
-			children = (
-				D2BDC91816F78D4A00A8FCCD /* Appirater.h */,
-				D2BDC91916F78D4A00A8FCCD /* Appirater.m */,
-				D2BDC91A16F78D4A00A8FCCD /* AppiraterDelegate.h */,
-			);
-			path = Appirater;
 			sourceTree = "<group>";
 		};
 		D2BDC91B16F78D4A00A8FCCD /* DSActivityView */ = {
@@ -1447,7 +1432,6 @@
 				95FC2BD71811CCCB00F4AFAB /* Fade.m in Sources */,
 				D2BDC9E416F78D4A00A8FCCD /* OKTessData.mm in Sources */,
 				D2BDC9E516F78D4A00A8FCCD /* OKTessFont.m in Sources */,
-				D2BDC9E616F78D4A00A8FCCD /* Appirater.m in Sources */,
 				D2BDC9E716F78D4A00A8FCCD /* DejalActivityView.m in Sources */,
 				D2BDC9E816F78D4A00A8FCCD /* OKNewAccount.m in Sources */,
 				D2BDC9E916F78D4A00A8FCCD /* OKRequestPassword.m in Sources */,
