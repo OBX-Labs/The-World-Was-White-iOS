@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27ACC9882C4F576200493D22 /* OBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACC9852C4F575700493D22 /* OBXKit.framework */; };
-		27ACC9892C4F576200493D22 /* OBXKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27ACC9852C4F575700493D22 /* OBXKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		57F00E3C2045D4FA0022C9E2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57F00E3B2045D4FA0022C9E2 /* Media.xcassets */; };
 		9519C95517FDD02E00E7EE9D /* Perlin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9519C95217FDC1F500E7EE9D /* Perlin.cpp */; };
 		954829F818907BFB00BA1D18 /* death.png in Resources */ = {isa = PBXBuildFile; fileRef = 954829F618907BFB00BA1D18 /* death.png */; };
@@ -37,8 +35,6 @@
 		D279AB7C16F8EC7900AD8DC7 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = D279AB7B16F8EC7900AD8DC7 /* Word.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D279AB7F16F8EC8600AD8DC7 /* OutlinedWord.m in Sources */ = {isa = PBXBuildFile; fileRef = D279AB7E16F8EC8600AD8DC7 /* OutlinedWord.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D279AB8216F8EE6E00AD8DC7 /* TessGlyph.mm in Sources */ = {isa = PBXBuildFile; fileRef = D279AB8116F8EE6E00AD8DC7 /* TessGlyph.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		D28B65001709EC710078E7DE /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D28B64FE1709EC710078E7DE /* libTestFlight.a */; };
-		D28B65021709ECBD0078E7DE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D28B65011709ECBD0078E7DE /* libz.dylib */; };
 		D2BDC8E116F78C7400A8FCCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BDC8E016F78C7400A8FCCD /* UIKit.framework */; };
 		D2BDC8E316F78C7400A8FCCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BDC8E216F78C7400A8FCCD /* Foundation.framework */; };
 		D2BDC8E516F78C7400A8FCCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2BDC8E416F78C7400A8FCCD /* CoreGraphics.framework */; };
@@ -193,23 +189,6 @@
 		D2D0643F1718AAF0007D9D26 /* SalvoSerifBold23.tes in Resources */ = {isa = PBXBuildFile; fileRef = D2D0643C1718AAF0007D9D26 /* SalvoSerifBold23.tes */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		27ACC9842C4F575700493D22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27ACC97F2C4F575700493D22 /* OBXKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 276D548A2C1256600006FB3F;
-			remoteInfo = OBXKit;
-		};
-		27ACC9862C4F575700493D22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 27ACC97F2C4F575700493D22 /* OBXKit.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 276D54942C1256600006FB3F;
-			remoteInfo = OBXKitTests;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		27ACC98A2C4F576200493D22 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -217,7 +196,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				27ACC9892C4F576200493D22 /* OBXKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,7 +203,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27ACC97F2C4F575700493D22 /* OBXKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = OBXKit.xcodeproj; path = ../OBXKit/OBXKit.xcodeproj; sourceTree = "<group>"; };
 		57F00E3B2045D4FA0022C9E2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		9519C95217FDC1F500E7EE9D /* Perlin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Perlin.cpp; path = White/PerlinTexture/Perlin.cpp; sourceTree = "<group>"; };
 		9519C95317FDC1F500E7EE9D /* Perlin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Perlin.h; path = White/PerlinTexture/Perlin.h; sourceTree = "<group>"; };
@@ -263,9 +240,6 @@
 		D279AB7E16F8EC8600AD8DC7 /* OutlinedWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OutlinedWord.m; path = White/OutlinedWord.m; sourceTree = "<group>"; };
 		D279AB8016F8EE6E00AD8DC7 /* TessGlyph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TessGlyph.h; path = White/TessGlyph.h; sourceTree = "<group>"; };
 		D279AB8116F8EE6E00AD8DC7 /* TessGlyph.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TessGlyph.mm; path = White/TessGlyph.mm; sourceTree = "<group>"; };
-		D28B64FE1709EC710078E7DE /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
-		D28B64FF1709EC710078E7DE /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
-		D28B65011709ECBD0078E7DE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		D2BDC8DD16F78C7400A8FCCD /* White.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = White.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2BDC8E016F78C7400A8FCCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D2BDC8E216F78C7400A8FCCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -498,17 +472,14 @@
 			files = (
 				956EC3AB1818628F00A76490 /* AudioToolbox.framework in Frameworks */,
 				956EC3A91818628700A76490 /* AVFoundation.framework in Frameworks */,
-				D28B65021709ECBD0078E7DE /* libz.dylib in Frameworks */,
 				D2BDCA6116F78DC100A8FCCD /* MessageUI.framework in Frameworks */,
 				D2BDCA5F16F78DBB00A8FCCD /* SystemConfiguration.framework in Frameworks */,
 				D2BDCA5D16F78DB600A8FCCD /* Security.framework in Frameworks */,
-				D28B65001709EC710078E7DE /* libTestFlight.a in Frameworks */,
 				D2BDCA5B16F78DB100A8FCCD /* libxml2.dylib in Frameworks */,
 				D2BDCA5916F78DA900A8FCCD /* OpenGLES.framework in Frameworks */,
 				D2BDCA5716F78DA400A8FCCD /* QuartzCore.framework in Frameworks */,
 				D2BDCA5516F78D9E00A8FCCD /* Accounts.framework in Frameworks */,
 				D2BDCA5316F78D9800A8FCCD /* Social.framework in Frameworks */,
-				27ACC9882C4F576200493D22 /* OBXKit.framework in Frameworks */,
 				D2BDCA5116F78D9100A8FCCD /* StoreKit.framework in Frameworks */,
 				D2BDC8E116F78C7400A8FCCD /* UIKit.framework in Frameworks */,
 				D2BDC8E316F78C7400A8FCCD /* Foundation.framework in Frameworks */,
@@ -519,15 +490,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27ACC9802C4F575700493D22 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				27ACC9852C4F575700493D22 /* OBXKit.framework */,
-				27ACC9872C4F575700493D22 /* OBXKitTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		95D2B7EA184662340062F8B9 /* ColorTint */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,20 +507,9 @@
 			name = OKNoise;
 			sourceTree = "<group>";
 		};
-		D28B64FD1709EC710078E7DE /* TestFlight */ = {
-			isa = PBXGroup;
-			children = (
-				D28B65011709ECBD0078E7DE /* libz.dylib */,
-				D28B64FE1709EC710078E7DE /* libTestFlight.a */,
-				D28B64FF1709EC710078E7DE /* TestFlight.h */,
-			);
-			path = TestFlight;
-			sourceTree = "<group>";
-		};
 		D2BDC8D416F78C7400A8FCCD = {
 			isa = PBXGroup;
 			children = (
-				27ACC97F2C4F575700493D22 /* OBXKit.xcodeproj */,
 				57F00E3B2045D4FA0022C9E2 /* Media.xcassets */,
 				D2BDC8E616F78C7400A8FCCD /* White */,
 				D2BDC8DF16F78C7400A8FCCD /* Frameworks */,
@@ -598,7 +549,6 @@
 		D2BDC8E616F78C7400A8FCCD /* White */ = {
 			isa = PBXGroup;
 			children = (
-				D28B64FD1709EC710078E7DE /* TestFlight */,
 				D2BDC8EF16F78C7400A8FCCD /* AppDelegate.h */,
 				D2BDC8F016F78C7400A8FCCD /* AppDelegate.m */,
 				D2BDCA6216F7930300A8FCCD /* White */,
